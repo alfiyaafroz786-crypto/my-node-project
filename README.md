@@ -1,4 +1,4 @@
-# Assignment 6 - Simple Web Server using nodejs
+# Assignment 6 - Simple Web Server using NodeJS
 
 ## About:
     This Node.js server is built using the built-in http, fs, and path modules. When the server receives a request, it checks the requested URL and decides which file to send back to the browser.
