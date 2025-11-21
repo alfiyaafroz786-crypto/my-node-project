@@ -51,7 +51,8 @@
     > git status 
     > git add . 
     > git commit -m "message"
-    > git push
+    > git branch -M main
+    > git push -u origin main or git push
 
 ## Email JS Key:
     > Service Key
