@@ -31,7 +31,7 @@
     > HTML, CSS, Javascript
     > Node JS, Nodemon
     > Email JS
-    > GIT GitHub, Netlify
+    > GIT. GitHub
 
 ## Editor: 
     > VS Code
@@ -61,9 +61,6 @@
 
 ## GitHub URL: 
     > https://github.com/alfiyaafroz786-crypto/my-node-project
-
-## Netlify URL:
-    > https://alfiyaafroz-assignment6.netlify.app/
 
 ## Project Screenshot: 
     > Inside screenshot folder
