@@ -2,9 +2,9 @@
 
 ## Route
 1. /home or / = Home Page
-2. /about = Avout Us Page
+2. /about = About Us Page
 3. /service = Service Page
-4. /contact = Contact us Page
+4. /contact = Contact Us Page
 5. /anyPath = 404 Not found
 
 ## Project Setup command:
