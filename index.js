@@ -29,10 +29,8 @@ const app = http.createServer((req,res) =>{
     <main>
       <section style="display: grid; grid-template-columns: 1fr 1fr; padding: 30px 24%; align-items: center;">
         <div>
-          <h2 style="font-size: 2.4rem; color: #4B5B67;">Revitalize Your</h2>
-          <h2 style="font-size: 2.4rem; color: #4B5B67;">Clothes with Expert</h2>
-          <h2 style="font-size: 2.4rem; color: #06A8FF; font-weight: bold;">Laundry Services!</h2>
-          <p style="color: #A0A8AE; font-size: 1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+          <h2 style="font-size: 2.4rem; color: #4B5B67;line-height: 1.6">Revitalize Your <br> Clothes with Expert <br> <b style="font-size: 2.4rem; color: #06A8FF; font-weight: bold;"> Laundry Services! </b></h2>
+          <p style="color: #A0A8AE; font-size: 1rem; line-height: 1.8; margin-bottom: 1.5rem; margin-top: -8%;">
             From premium dry cleaning to swift wash and fold, we deliver care
             and convenience. Schedule a pickup and rediscover the freshness of
             your clothes today!
@@ -72,7 +70,7 @@ const app = http.createServer((req,res) =>{
       </div>
     </header>
     <main><section style="display: grid; grid-template-columns: 1fr 1fr; padding: 30px 24%; 
-          align-items: center;"><div><h2>About Us Page</h2></div></main></body></html>`);
+          align-items: center;"><div><h2 style="color: #61656B;">About Us Page</h2></div></main></body></html>`);
         return res.end();
 
     }else if(req.url === '/contact'){
@@ -99,7 +97,7 @@ const app = http.createServer((req,res) =>{
     </header>
     <main><section style="display: grid; grid-template-columns: 1fr 1fr; padding: 30px 24%; align-items: center;">
         <div>
-          <h2>Contact Us Page</h2></div></div></main></body></html>`);
+          <h2 style="color: #61656B;">Contact Us Page</h2></div></div></main></body></html>`);
         return res.end();
 
     }else if(req.url === '/services'){
@@ -126,7 +124,7 @@ const app = http.createServer((req,res) =>{
     </header>
     <main><section style="display: grid; grid-template-columns: 1fr 1fr; padding: 30px 24%; align-items: center;">
         <div>
-          <h2>Services Page</h2></div></div></main></body></html>`);
+          <h2 style="color: #61656B;">Services Page</h2></div></div></main></body></html>`);
         return res.end();
 
     }else{
