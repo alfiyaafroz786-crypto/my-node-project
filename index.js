@@ -1,10 +1,9 @@
 const http = require('http');
 
 const app = http.createServer((req,res) =>{
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    // res.setHeader('Content-type','text/html');
    
     if(req.url === '/home' || req.url === '/'){
+        res.writeHead(200, { 'Content-Type': 'text/html' });
         res.write(`<html>
     <head> <title>Laundry Services</title> </head>
     <body>
@@ -48,6 +47,7 @@ const app = http.createServer((req,res) =>{
         return res.end();
 
     }else if(req.url === '/about'){
+      res.writeHead(200, { 'Content-Type': 'text/html' });
         res.write(`<html>
     <head> <title>Laundry Services</title> </head>
     <body>
@@ -73,7 +73,9 @@ const app = http.createServer((req,res) =>{
           align-items: center;"><div><h2 style="color: #61656B;">About Us Page</h2></div></main></body></html>`);
         return res.end();
 
+    
     }else if(req.url === '/contact'){
+        res.writeHead(200, { 'Content-Type': 'text/html' });
         res.write(`<html>
     <head> <title>Laundry Services</title> </head>
     <body>
@@ -101,6 +103,7 @@ const app = http.createServer((req,res) =>{
         return res.end();
 
     }else if(req.url === '/services'){
+        res.writeHead(200, { 'Content-Type': 'text/html' });
         res.write(`<html>
     <head> <title>Laundry Services</title> </head>
     <body>
@@ -128,6 +131,7 @@ const app = http.createServer((req,res) =>{
         return res.end();
 
     }else{
+        res.writeHead(404, { 'Content-Type': 'text/html' });
         res.write(`<h1>404 Not Found</h1>`);
         return res.end();
     }
